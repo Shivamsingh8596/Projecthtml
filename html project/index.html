@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="navbar-logo">
+        <a href="#"><img src="amazon logo.png" alt="Amazon Logo"></a>
+    </div>
+
+    <!--delivery log-->
+    <div class="navbar-delivery">
+        <span class="location-icon"><a href="https://www.google.com/maps/@31.2475648,75.7039104,5956m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D" >
+            <image src="location.png" width="20px" height="20px" ></span></image></a> <br>
+        <span>Deliver to Shivam</span>
+    </div>
+
+
+    <!--search log-->
+    <div class="navbar-search">
+        <input type="text" placeholder="Search Products">
+        <button>🔍</button>
+    </div>
+     
+    <!--Sign in -->
+    <div class="navbar-sign">
+    <a href="http://127.0.0.1:3000/signin.html" style="text-decoration: none; color:white;"> Sign In</a>   
+    </div>
+
+    <!--Language-->
+    <div class="navbar-language">
+        <div class="flag">
+        <image src="flag1.png" width="20px" height="20px" ></image></div>
+        <select>
+            <div class="lan">
+            <option>English</option>
+            <option>हिन्दी</option>
+            <option>Punjabi</option>
+            <option>Marathi</option>
+            <option>Telgue</option>
+            <option>Tamil</option> </div>
+        </select>
+    </div>
+
+    <!--order-text-->
+    <div class="navbar-orders">
+        <span>Returns & Orders</span>
+    </div>
+
+    <!--Cart log-->
+    <div class="navbar-cart">
+        <span>🛒</span>
+       <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart" style="color: white;" ><span>Cart</span></a>
+    </div>
+</nav>
+
+
+<!-- Sidebar for Categories and Filters -->
+<div class="sidebar">
+    <h2>Categories</h2>
+    <ul>
+        <input type="radio" name="gender">Male<br>
+        <input type="radio" name="gender">Female<br>
+        <input type="radio" name="gender">Other<br>
+        <br>
+   <br> <h2>Filters</h2>
+    <select>
+    <option>Price range</option>
+      <option>1k to 2k</option>
+         <option>2k to 5k</option>
+        <option>5k to 10k</option>
+    </select><br>
+    <br> 
+    <select>
+        <option>Brand</option>
+        <option>Raymond</option>
+         <option>Killer</option>
+        <option>Mufti</option>
+        <option>Peter England</option>
+        <option>Zara</option>
+        <option>Lv</option>
+         <option>other</option>
+        </select><br>
+        <br>
+        <select>
+         <option>Size</option>
+        <option>S</option>
+         <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+        <option>XXL</option>
+        <option>XXXL</option>
+        </select><br>
+        <br>
+        <select>
+            <option>Material</option>
+              <option>Cotton</option>
+                 <option>Polyster</option>
+                <option>Rayon</option>
+            </select><br>
+    </ul>
+</div>
+
+<!-- Main Body with Products -->
+<main class="product-grid">
+    <!-- Repeat this structure for each product -->
+     
+     <!--product1-->
+    <div class="product-card">
+        <img src="image1.webp" alt="Product Image">
+        <h3>SK Store Double Bed Mink Blanket King Size Heavy Winter Mink Soft AC 
+            Room Fleece All Weather Warm Blanket</h3>
+        <p>⭐ 4.5</p>
+        <p>₹1999</p>
+        <a href="" style="text-decoration: none; color: blue;"><p>More Detail</p></a><br><br> 
+        <br><br>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"><button>Add to Cart</button></a>
+    </div>
+
+    <!--product2-->
+    <div class="product-card">
+        <img src=" image2.jpg" alt="Product Image">
+        <h3>TTFPL FASHION STORE Dazeel Winter Jacket for Men Quilted Hooded Winter 
+            Jackets for Men & Boys Full Sleeve Jackets for Men
+             All Weather Wear Bomber Jacket for Men, Jerkin for Men</h3>
+        <p>⭐ 4.1</p>
+        <p>₹1799</p>
+        <a href="https://www.amazon.in/gp/product/B0DGTHXCR1/ref=ewc_pr_img_6?smid=A2N6CSRSLAJYMX&psc=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a>
+         <br><br>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"><button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product3-->
+    <div class="product-card">
+        <img src="image3.jpg" alt="Product Image">
+        <h3>IndiWeaves Mens Solid Soft Fleece Warm Lower/Trackpants Pyjama
+             for Wintrs [Pack of 2] Multicolor 01</h3>
+        <p>⭐ 3.5</p>
+        <p>₹1249</p>
+        <a href="https://www.amazon.in/gp/product/B0BJKXDS9N/ref=ewc_pr_img_4?smid=A1R3N9NB0DE7F0&psc=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a><br>
+        <br><br>
+        <br><a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"><button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product4-->
+    <div class="product-card">
+        <img src="image4.jpg" alt="Product Image">
+        <h3>Boldfit Puffer Jacket For Men Winter Wear Hooded Jackets For Men Full Sleeve Winter
+             Jacket Winter Wear for Men Insulated Winter Jackets For Men Winter Winter Jacket For Men Winter Mens jacket</h3>
+        <p>⭐ 3.5</p>
+        <p><s>₹3499</s><br>₹1399</p>
+        <a href="https://www.amazon.in/gp/product/B0CGHYB9SC/ref=ewc_pr_img_8?smid=A1WYWER0W24N8S&psc=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"><button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product5-->
+    <div class="product-card">
+        <img src="image5.jpg" alt="Product Image">
+        <h3>Campus Sutra Men's Blue & Red Colour-Blocked Solid Regular Fit Cotton Varsity Jacket For Winter Wear | Low-Cut Standing Collar 
+            | Full Sleeve | Zipper | Casual Jacket For Man | Stylish Jacket For Men</h3>
+        <p>⭐ 3.9</p>
+        <p>₹999</p>
+        <a href="https://www.amazon.in/gp/product/B0BDLJSTC1/ref=ewc_pr_img_9?smid=A1WYWER0W24N8S&psc=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"><button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product6-->
+    <div class="product-card">
+        <img src="image6.jpg" alt="Product Image">
+        <h3>InstaCuppa Stainless Steel 3-In-1 1.2Liter Multi Cook Kettle With Steamer,Non-Stick Inner Pot,Adjustable Temperature,
+            Ideal For Boiling Milk,Tea,Coffee,Eggs&Steaming Veggies,600 Watts,Elegant White</h3>
+        <p>⭐ 4.5</p>
+        <p>₹1599</p>
+        <a href="https://www.amazon.in/gp/product/B0C2ZG13B8/ref=sw_img_1?smid=A3CTHNKRKDG7ON&th=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"><button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product7-->
+    <div class="product-card"> 
+        <img src="image7.jpg" alt="Product Image">
+        <h3>Puma Men's Viz Runner 2 SL Running Shoe</h3>
+        <p>⭐ 4.5</p>
+        <p>₹3179</p>
+        <a href="https://www.amazon.in/gp/product/B0CKJ9SXL3/ref=ox_sc_act_image_2?smid=A1WYWER0W24N8S&th=1&psc=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a><br>
+        <br><br>
+        <br>
+        <br><a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"><button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product8-->
+    <div class="product-card">
+        <img src="book.webp" alt="Product Image">
+        <h3>My Blood Type is Sugar : Pocket Size Blood Sugar Log Book for 
+            2 Years | 4x6 Inches Daily Blood Glucose Monitoring Journal |
+             Small Blood Sugar Level Tracker for Women</h3>
+        <p>⭐ 4.2</p>
+        <p>₹599</p>
+        <a href="https://www.amazon.in/gp/product/B0CP3PT3N3/ref=ewc_pr_img_3?smid=A2FH0ZNKEJUJZZ&th=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a><br>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"><button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product9-->
+    <div class="product-card">
+        <img src="image8.jpg" alt="Product Image">
+        <h3>boAt Wave Sigma 3 w/Turn-by-Turn Navigation, 2.01" HD Display,
+         Bluetooth Calling, Crest+ OS, QR Tray, Watch Face Studio, Coins, Emergency SOS Smart Watch for Men & Women(Active Black)</h3>
+        <p>⭐ 4.4</p>
+        <p>₹999</p>
+        <a href="https://www.amazon.in/gp/product/B0CP3PT3N3/ref=ewc_pr_img_3?smid=A2FH0ZNKEJUJZZ&th=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a><br>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"> <button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product10-->
+    <div class="product-card">
+        <img src="phone.jpg" alt="Product Image">
+        <h3>realme NARZO 70 Pro 5G (Glass Gold, 8GB RAM,256GB Storage) 
+            Dimensity 7050 5G Chipset | Horizon Glass Design | Segment 1st Flagship Sony IMX890 OIS Camera</h3>
+        <p>⭐ 4.5</p>
+        <p>₹19999</p>
+        <a href="https://www.amazon.in/gp/product/B0CP3PT3N3/ref=ewc_pr_img_3?smid=A2FH0ZNKEJUJZZ&th=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a><br>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"> <button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product11-->
+    <div class="product-card">
+        <img src="image10.jpg" alt="Product Image">
+        <h3>VOLTURI Fridge Storage Containers (Pack of 6), Fridge Organizer with Removable 
+            Drain Plate & Secure-Sealing Lids, Fridge Storage Boxes Keep Fruits, 
+            Vegetables Fresher, Container Box, 1500 ML</h3>
+        <p>⭐ 4.0</p>
+        <p>₹899</p>
+        <a href="https://www.amazon.in/gp/product/B0CP3PT3N3/ref=ewc_pr_img_3?smid=A2FH0ZNKEJUJZZ&th=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"> <button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product12-->
+    <div class="product-card">
+        <img src="file.jpg" alt="Product Image">
+        <h3>eCraftIndia Golden Metal Handcrafted Flower Decorative Urli with 10 Diyas
+             - Urli Bowl for Home Decor - Urli for Floating Flowers - Diwali
+             Decoration Items for Home Decor - Housewarming, Diwali Gift</h3>
+        <p>⭐ 4.3</p>
+        <p>₹199</p>
+        <a href="https://www.amazon.in/gp/product/B0CP3PT3N3/ref=ewc_pr_img_3?smid=A2FH0ZNKEJUJZZ&th=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart">  <button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product13-->
+    <div class="product-card">
+        <img src="box2.jpg" alt="Product Image">
+        <h3>Brand Conquer Wool Beanie Cap & Muffler for Mens & Women – Winter Cap for Men – Men’s Woolen
+             Cap with Neck Muffler – Winter Muffler for Women
+             – Soft Woolen Muffler & Cap for Men & Women Black</h3>
+        <p>⭐ 4.5</p>
+        <p>₹299</p>
+       <a href="https://www.amazon.in/gp/product/B0CP3PT3N3/ref=ewc_pr_img_3?smid=A2FH0ZNKEJUJZZ&th=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"><button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product14-->
+    <div class="product-card">
+        <img src="blanket.jpg" alt="Product Image">
+        <h3>WINSTON HOME Ultra Soft Pure Luxurious Embossed Very Warm Korean Mink Blankets
+             Double Bed Double ply for Winter - (Multicolor)</h3>
+        <p>⭐ 4.5</p>
+        <p>₹1599</p>
+        <a href="https://www.amazon.in/gp/product/B0CLHWZZ64/ref=ewc_pr_img_7?smid=A2MJAP9KI3CCRU&psc=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a><br>
+        <br><br>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"> <button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product15-->
+    <div class="product-card">
+        <img src="car.webp" alt="Product Image">
+        <h3>Wembley Rc Car Offroad High Speed Monster Truck Remote Control 
+            Car for Kids with 2 Speeds and 4 Headlight Modes | Lithium Battery 
+            | C-Type Charging | Made in India - Black</h3>
+        <p>⭐ 4.1</p>
+        <p>₹1249</p>
+        <a href="https://www.amazon.in/gp/product/B0CT8D4WZT/ref=ewc_pr_img_1?smid=A1D6EF3ZA9VMEJ&psc=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a><br>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart">  <button>Add to Cart</button></a>
+    </div>
+
+
+    <!--product16-->
+    <div class="product-card">
+        <img src="cooker.jpg" alt="Product Image">
+        <h3>Pigeon by Stovekraft Favourite Outer Lid Non Induction Aluminium Pressure Cooker, 3 Litres, Silver</h3>
+        <p>⭐ 3.8</p>
+        <p>₹699</p>
+        <a href="https://www.amazon.in/gp/product/B00VK5MCMI/ref=ewc_pr_img_5?smid=AXOGFIT0PZZ7G&psc=1" style="text-decoration: none; color: blue;"><p>More Detail</p></a><br>
+        <br><br>
+        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"> <button>Add to Cart</button></a>
+    </div>
+     
+    
+    <!-- Repeat the product-card div for 15 products -->
+</main>
+
+  <!--div class="bar"><image src="amazon logo.png" width="80px" hight="30px"></image>
+
+  </div-->
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footerlogo">
+    <image src="amazon logo.png" style="height: 50px;" ></image>
+        <br>@ 2024</div>
+        <br>
+        
+    <div class="social-icons">
+        <div class="socialmedia">
+        <a href="#"><img src="facebook.png" width="30px"  alt="Facebook"></a>            <!--facebook-->
+        <a href="https://www.instagram.com/amazon/"><img src="insta.jpg" width="30px" style="margin-left:20px;" alt="Instagram"></a>       <!--Instagram-->
+        <a href="#"><img src="you.png" width="30px" style="margin-left:20px;" alt="WhatsApp"></a>                                      <!--YOutube-->
+        <a href="#"><img src="x.png" width="30px" style="margin-left:20px;" alt="YouTube"></a></div>                            <!--Twitter-->
+    </div>
+</div>
+</body>
+</html>
+
+</body>
+</html>
